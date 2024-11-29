@@ -39,7 +39,7 @@ def error(y_true, y_pred):
     return np.abs(y_true - y_pred).mean()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.stdin = io.FileIO("input.txt", "r")
 
     # F -- the number of observed features
